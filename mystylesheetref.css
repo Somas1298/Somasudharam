@@ -1,0 +1,78 @@
+.menuimg{
+    height: 150px;
+    width: 200px;
+}
+
+body#b2{
+    background-image: url("wallpaper1.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.menudiv{
+    background-color: brown;
+    width: fit-content; 
+    padding: 10px;
+}
+
+.logindiv{
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    background-color: rgb(212, 156, 214);
+    border-radius: 20px;
+    border-color: rgb(86, 24, 102);
+    border-style: solid;
+    border-width: 2px;
+    box-shadow:  inset -2px -2px 10px 1px rgb(105, 105, 3);
+}
+
+.logindiv:hover{
+    box-shadow: 5px 5px 10px 0px rgb(126, 123, 123);
+}
+
+a{
+    text-decoration: none;
+}
+
+input.text1{
+    font-size: larger;
+    color: blue;
+    font-weight: bold;
+}
+
+input.text1:hover{
+    border-color: rgb(141, 33, 33);
+}
+
+li{
+    list-style: none;
+    display:inline;
+    position: sticky;
+    margin-left: 20px;
+    height: 50px;
+}
+
+#nav_bar_div{
+    background-color: beige;
+    color: blue;
+    height: 50px;
+    top: 0px;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    
+}
+ul{
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+li:hover{
+    background-color: brown;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
